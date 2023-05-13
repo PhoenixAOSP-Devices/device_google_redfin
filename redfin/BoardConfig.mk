@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+DEVICE_PATH := device/google/redfin/redfin
+
 ifdef PHONE_CAR_BOARD_PRODUCT
   include device/google_car/$(PHONE_CAR_BOARD_PRODUCT)/BoardConfig.mk
 else
