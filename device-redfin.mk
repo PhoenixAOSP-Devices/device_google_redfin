@@ -242,3 +242,7 @@ PRODUCT_PACKAGES += \
 ifneq ($(PRODUCT_VENDOR_FREEZE_SYSTEM_BUILD),true)
 PRODUCT_PACKAGES += redfin_product_compatibility_matrix.xml
 endif
+
+# Inherit proprietary vendor libraries
+$(call inherit-product-if-exists, vendor/google_devices/redfin/redfin-vendor.mk)
+$(call inherit-product-if-exists, vendor/google_devices/redfin-firmware/redfin-firmware.mk)
