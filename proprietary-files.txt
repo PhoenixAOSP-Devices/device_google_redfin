@@ -27,6 +27,9 @@ product/priv-app/HardwareInfo/HardwareInfo.apk;PRESIGNED
 product/priv-app/HotwordEnrollmentOKGoogleRT5514P/HotwordEnrollmentOKGoogleRT5514P.apk;PRESIGNED
 product/priv-app/HotwordEnrollmentXGoogleRT5514P/HotwordEnrollmentXGoogleRT5514P.apk;PRESIGNED
 
+# Google Overlays
+product/overlay/SettingsGoogleOverlayRedfin.apk
+
 # Permissions
 product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-google.xml
 product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
